@@ -6,7 +6,7 @@
 3. react-chartjs-2 / chart.js
 4. Data is fetched from "Disease.sh" open source API
 
-### Steps to run the application
+## Steps to run the application
 1. Clone the project
 2. Run npm install to install the dependencies
 3. run npm start
