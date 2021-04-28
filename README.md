@@ -10,3 +10,11 @@
 1. Clone the project
 2. Run npm install to install the dependencies
 3. run npm start
+
+
+![image](https://user-images.githubusercontent.com/18328084/116419448-b14bf400-a85a-11eb-9885-07f0d3ec5418.png)
+
+
+https://user-images.githubusercontent.com/18328084/116419976-2dded280-a85b-11eb-9647-b0fddb408efc.mov
+
+
