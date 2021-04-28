@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #f5f6fa;
+  font-family: 'Roboto Mono', monospace !important;
+  background-image: url('./assets/background-image.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  /* font-family: 'Roboto Mono', monospace; */
+  color: gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.MuiPaper-root.MuiCard-root {
+  box-shadow: 10px 10px 34px -14px rgba(0,0,0,0.75);
+  border-radius: 8px;
+}
+
+.app__left {
+  flex: 0.8;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__dropdown {
+  /* width: 200px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .app__right {
+    padding-top: 20px;
   }
 }

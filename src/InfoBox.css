@@ -1,0 +1,13 @@
+.infoBox {
+  width: 200px;
+}
+
+.infoBox__cases {
+  border-bottom: 5px solid rgb(0, 0, 255);
+}
+.infoBox__recovered {
+  border-bottom: 5px solid rgb(0, 107, 0);
+}
+.infoBox__deaths {
+  border-bottom: 5px solid rgb(255, 0, 0);
+}
