@@ -12,7 +12,5 @@
 3. run npm start
 
 
-![image](https://user-images.githubusercontent.com/18328084/116419448-b14bf400-a85a-11eb-9885-07f0d3ec5418.png)
-
 
 ![Screen Recording 2021-04-28 at 7 49 07 PM](https://user-images.githubusercontent.com/18328084/117429061-45e1e080-af44-11eb-8956-591783bc1cfc.gif)
